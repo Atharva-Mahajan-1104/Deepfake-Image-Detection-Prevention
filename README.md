@@ -25,17 +25,16 @@ This repository is suitable for:
 
 ## 📂 Project Structure
 
-```
-├── app.py
-├── predict.py
-├── train.py
+```bash
+├── code/
+│   ├── app.py
+│   ├── predict.py
+│   ├── train.py
 ├── README.md
 
 ```
 
 ---
-
-
 
 ## 💻 Source Code
 
@@ -110,7 +109,7 @@ is included in this repository.
 * Users can upload test images for analysis
 * The model returns:
 
-  * Prediction result (Real / Fake)
+  * Prediction result (**Real / Fake**)
   * Reasoning behind the classification
 
 This makes the system intuitive and suitable for real-time verification.
@@ -134,6 +133,22 @@ This makes the system intuitive and suitable for real-time verification.
 * Academic research and experimentation
 * Learning practical applications of AI
 * Demonstrating AI-based security systems
+
+---
+
+## 🖼️ Result Snapshots
+
+In order for the user to determine if an image is real or fake, they must select one from the testing images that have been trained into the model.
+
+<img width="501" height="631" alt="351404208-80529dfd-b428-434e-bd71-246aac435a7f" src="https://github.com/user-attachments/assets/3af3b9d5-84ad-431a-a267-ecf8bb48f69e" />
+
+The model will identify the selected image for detection as real if it is, and it will provide the outcome as real along with an explanation of why it is real.
+
+<img width="985" height="876" alt="351404452-c5e084a8-c33f-4d6d-84ee-27016760d58e" src="https://github.com/user-attachments/assets/c08c05f3-604f-4150-a18f-146251ed2b4d" />
+
+The model will identify the selected image for detection as fake and present the output as fake along with an explanation of why it is fake.
+
+<img width="1078" height="911" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/780abc9b-b24b-442c-92a6-a5037efa5d02" />
 
 ---
 
