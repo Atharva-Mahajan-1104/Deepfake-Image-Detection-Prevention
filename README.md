@@ -27,11 +27,10 @@ This repository is suitable for:
 
 ```
 ├── app.py
-├── models/
-├── dataset/
-├── utils/
-├── requirements.txt
-└── README.md
+├── predict.py
+├── train.py
+├── README.md
+
 ```
 
 ---
